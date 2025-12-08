@@ -6,7 +6,7 @@
         "dev": "esbuild src/index.tsx --bundle --outfile=dist/index.js --loader:.tsx=tsx --platform=browser --sourcemap --watch",
         "lint": "eslint . --ext .ts",
         "format": "prettier --write .",
-        "test": "vitest"
+        "test": "vitest run"
     },
     "type": "module",
     "keywords": [],
