@@ -4,9 +4,9 @@
     "main": "index.js",
     "scripts": {
         "start": "node src/index.ts",
-        "test": "node --experimental-strip-types --test 'test/**/*.test.ts'",
-        "test:watch": "node --experimental-strip-types --test --watch 'test/**/*.test.ts'",
-        "test:coverage": "node --experimental-strip-types --test --experimental-test-coverage 'test/**/*.test.ts'",
+        "test": "node --test",
+        "test:watch": "node --test --watch",
+        "test:coverage": "node --test --experimental-test-coverage",
         "typecheck": "tsc",
         "lint": "eslint . --ext .ts",
         "format": "prettier --write ."
